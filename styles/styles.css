@@ -23,6 +23,7 @@
     flex-direction: row;
     align-items: center;
     margin-left: 8.33%;
+    text-decoration: none;
 }
 
 .nav-logo-name:hover {
@@ -98,19 +99,6 @@
     opacity: 60%;
 }
 
-.resume {
-    background-image: url("../images/resume.svg");
-    background-position: center;
-    background-size: contain;
-    width: 0.75em;
-    height: 0.75em;
-    background-repeat: no-repeat;
-}
-
-.resume:hover {
-    opacity: 60%;
-}
-
 
 /* Content */
 
@@ -121,10 +109,6 @@
     margin-right: 8.33%;
     margin-left: 8.33%;
     justify-content: space-between;
-}
-
-h3 {
-    font-size: 18px;
 }
 
 
@@ -167,19 +151,21 @@ h3 {
     text-align: center;
 }
 
-.navigation>div {
+.navigation>a {
     margin-top: 0.75vh;
     text-align: center;
     width: 100%;
+    text-decoration: none;
 }
 
-.navigation>div>h3 {
+.navigation>a>h3 {
     padding-top: 0.75vh;
     padding-bottom: 0.75vh;
     border-radius: 5%;
+    font-size: 18px;
 }
 
-.navigation>div>h3:hover {
+.navigation>a>h3:hover {
     background-color: #f9f9f9;
 }
 
