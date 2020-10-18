@@ -25,8 +25,14 @@
     margin-left: 8.33%;
 }
 
+.nav-logo-name:hover {
+    opacity: 60%;
+}
+
 .logo {
-    background-image: url("../images/logo.svg");
+    background-image: url("../images/logo1.svg");
+    background-position: center;
+    background-size: contain;
     width: 0.75em;
     height: 0.75em;
     background-repeat: no-repeat;
@@ -39,7 +45,7 @@
 }
 
 .nav-name {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .socials {
@@ -47,32 +53,62 @@
     margin-left: auto;
     margin-right: 8.33%;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .linkedin {
-    background-color: #212121;
-    border-radius: 50px;
+    background-image: url("../images/linkedin.svg");
+    background-position: center;
+    background-size: contain;
     width: 0.75em;
     height: 0.75em;
     background-repeat: no-repeat;
-    margin-right: 5%;
+    margin-right: 10%;
+}
+
+.linkedin:hover {
+    opacity: 60%;
 }
 
 .github {
-    background-color: #212121;
-    border-radius: 50px;
+    background-image: url("../images/github.svg");
+    background-position: center;
+    background-size: contain;
     width: 0.75em;
     height: 0.75em;
     background-repeat: no-repeat;
-    margin-right: 5%;
+    margin-right: 10%;
+}
+
+.github:hover {
+    opacity: 60%;
 }
 
 .dribbble {
-    background-color: #212121;
-    border-radius: 50px;
+    background-image: url("../images/dribbble.svg");
+    background-position: center;
+    background-size: contain;
     width: 0.75em;
     height: 0.75em;
     background-repeat: no-repeat;
+    margin-right: 10%;
+}
+
+.dribbble:hover {
+    opacity: 60%;
+}
+
+.resume {
+    background-image: url("../images/resume.svg");
+    background-position: center;
+    background-size: contain;
+    width: 0.75em;
+    height: 0.75em;
+    background-repeat: no-repeat;
+}
+
+.resume:hover {
+    opacity: 60%;
 }
 
 
@@ -81,19 +117,34 @@
 .content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 8.33%;
+    margin-top: 1em;
+    margin-right: 8.33%;
+    margin-left: 8.33%;
+    justify-content: space-between;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
 /* Name and Tagline */
 
+.intro {
+    padding-left: 4.15%;
+}
+
 .name {
     font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.tagline-box {
+    text-align: center;
+}
+
+.tagline {
+    font-size: 20px;
 }
 
 
@@ -101,9 +152,50 @@ h3 {
 
 .landing-image {
     background-image: url("../images/landing-image.svg");
-    width: 7em;
-    height: 7em;
+    width: 8em;
+    height: 8em;
     background-repeat: no-repeat;
+}
+
+
+/* Menu */
+
+.navigation {
+    /*padding-right: 4.15%;*/
+    justify-content: space-between;
+    width: 10%;
+    text-align: center;
+}
+
+.navigation>div {
+    margin-top: 0.75vh;
+    text-align: center;
+    width: 100%;
+}
+
+.navigation>div>h3 {
+    padding-top: 0.75vh;
+    padding-bottom: 0.75vh;
+    border-radius: 5%;
+}
+
+.navigation>div>h3:hover {
+    background-color: #f9f9f9;
+}
+
+
+/* Footer */
+
+.foot {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+p {
+    font-size: 10px;
 }
 
 
