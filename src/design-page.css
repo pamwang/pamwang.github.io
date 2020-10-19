@@ -1,0 +1,19 @@
+/******* Design page ********/
+
+.design-box {
+    width: 41.65%;
+}
+
+.design-header>h4 {
+    font-size: 24px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.design-body>p {
+    font-size: 16px;
+}
+
+.navigation>.design-button>h3 {
+    background-color: #f9f9f9;
+}
