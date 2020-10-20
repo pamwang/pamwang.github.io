@@ -41,12 +41,11 @@
 
 .nav-name-box {
     display: flex;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding-bottom: 1vh;
 }
 
 .nav-name {
-    font-size: 16px;
+    font-size: 0.3em;
 }
 
 .socials {
@@ -128,16 +127,16 @@
 /* Menu */
 
 .navigation {
-    /*padding-right: 4.15%;*/
+    padding-left: 4.15%;
     justify-content: space-between;
-    width: 10%;
+    width: 2.5em;
     text-align: center;
 }
 
 .navigation>a {
     margin-top: 0.75vh;
     text-align: center;
-    width: 100%;
+    width: auto;
     text-decoration: none;
 }
 
@@ -145,7 +144,7 @@
     padding-top: 0.75vh;
     padding-bottom: 0.75vh;
     border-radius: 5%;
-    font-size: 18px;
+    font-size: 0.35em;
 }
 
 .navigation>a>h3:hover {
@@ -164,18 +163,12 @@
 }
 
 .foot>.coded-by>p {
-    font-size: 10px;
+    font-size: 0.23em;
 }
 
 .foot>.copyright>p {
-    font-size: 10px;
+    font-size: 0.23em;
 }
-
-
-/* tablet media querey */
-
-
-/* phone media querey */
 
 
 /******* Landing page ********/
@@ -189,7 +182,7 @@
 
 .name {
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 1em;
 }
 
 .tagline-box {
@@ -197,7 +190,7 @@
 }
 
 .tagline {
-    font-size: 20px;
+    font-size: 0.45em;
 }
 
 
@@ -211,4 +204,38 @@
 }
 
 
-/******* About page ********/
+/******************************************************************/
+
+
+/* landscape tablet media querey */
+
+@media only screen and (max-width: 1112px) {
+    .nav-bar {
+        height: 10vh;
+    }
+    .content {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+    .landing-image {
+        margin-top: 3em;
+    }
+    .nav-bar {
+        align-items: flex-end;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 8.33%;
+        padding-right: 8.33%;
+    }
+    .navigation>a {
+        width: 2.5em;
+    }
+}
+
+
+/* phone media querey */
+
+@media only screen and (min-width: 600px) {}
