@@ -209,6 +209,9 @@
 
 /* landscape tablet media querey */
 
+
+/* fix height issue for in-between states*/
+
 @media only screen and (max-width: 1112px) {
     .nav-bar {
         height: 10vh;
