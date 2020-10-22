@@ -145,6 +145,11 @@
     padding-bottom: 0.75vh;
     border-radius: 5%;
     font-size: 0.35em;
+    font-weight: 100;
+}
+
+.navigation>a>.dev {
+    display: none;
 }
 
 .navigation>a>h3:hover {
@@ -183,6 +188,7 @@
 .name {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
+    font-weight: 100;
 }
 
 .tagline-box {
@@ -191,6 +197,7 @@
 
 .tagline {
     font-size: 0.45em;
+    font-weight: 100;
 }
 
 
@@ -220,6 +227,7 @@
         flex-direction: column-reverse;
         margin-top: 0;
     }
+    /* fix this */
     .landing-image {
         margin-top: 3em;
     }
@@ -241,4 +249,65 @@
 
 /* phone media querey */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+        height: 9vh;
+    }
+    .logo {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .nav-name-box {
+        display: none;
+    }
+    .linkedin {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .github {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .dribbble {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .medium {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .navigation {
+        padding-left: 8.33%;
+        padding-right: 8.33%;
+    }
+    .navigation>a>h3 {
+        font-size: 0.45em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .navigation>a>.development {
+        display: none;
+    }
+    .navigation>a>.dev {
+        display: flex;
+        font-size: 0.45em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .navigation>a {
+        width: auto;
+    }
+    /* fix this */
+    /*deal with overflow*/
+    .landing-image {
+        margin-top: 4em;
+    }
+    .foot>.coded-by>p {
+        font-size: 0.3em;
+    }
+    .foot>.copyright>p {
+        font-size: 0.3em;
+    }
+}
