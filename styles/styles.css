@@ -4,18 +4,28 @@
     border: 0;
     font-family: 'Lato', sans-serif;
     font-size: calc(10px + 5vmin);
-    background-color: #FEFEFE;
     color: #212121;
 }
 
+body{
+    background-color: #FEFEFE;
+}
+
+.content{
+    height:100vh;
+}
 
 /* navigation bar */
 
 .nav-bar {
     display: flex;
+    position: fixed;
+    top: 0;
     height: 16.66vh;
-    max-width: 100%;
+    width: 100%;
     align-items: center;
+    justify-content: center;
+    background: linear-gradient(#FEFEFE, transparent);
 }
 
 .nav-logo-name {
@@ -118,7 +128,7 @@
     display: flex;
     align-items: center;
     margin-top: 1em;
-    margin-right: 8.33%;
+    margin-right: 25%;
     margin-left: 8.33%;
     justify-content: space-between;
 }
@@ -127,7 +137,9 @@
 /* Menu */
 
 .navigation {
-    padding-left: 4.15%;
+    position:fixed;
+    right:8.33%;
+    top:45%;
     justify-content: space-between;
     width: 2.5em;
     text-align: center;
@@ -161,10 +173,9 @@
 
 .foot {
     width: 100%;
-    position: absolute;
     bottom: 0;
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 .foot>.coded-by>p {
@@ -182,13 +193,15 @@
 /* Name and Tagline */
 
 .intro {
-    padding-left: 4.15%;
+    text-align: center;
+    padding-bottom:5%;
+    padding-left: 5%;
 }
 
 .name {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .tagline-box {
@@ -208,6 +221,7 @@
     width: 8em;
     height: 8em;
     background-repeat: no-repeat;
+
 }
 
 
@@ -220,6 +234,9 @@
 /* fix height issue for in-between states*/
 
 @media only screen and (max-width: 1112px) {
+    *{
+        position: static;
+    }
     .nav-bar {
         height: 10vh;
     }
