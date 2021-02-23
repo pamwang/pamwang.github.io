@@ -183,7 +183,8 @@ a{
 
 .case-huddle{
     box-sizing: border-box;
-    width: 33.33%;
+    /*width: 33.33%;*/
+    width: 50%;
     padding-right: 8px;
 }
 
@@ -191,7 +192,7 @@ a{
     height:384px;
     width: 100%;
     border-radius: 2px;
-    background-image: url("../images/huddle.png");
+    background-image: url("../images/huddle-temp.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black;
@@ -200,7 +201,8 @@ a{
 
 .case-designdotlocal{
     box-sizing: border-box;
-    width: 66.66%;
+    /*width: 66.66%;*/
+    width: 100%;
     padding-left: 8px;
 }
 

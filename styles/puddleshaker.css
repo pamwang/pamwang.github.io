@@ -1,0 +1,203 @@
+*{
+    margin:none;
+    padding:none;
+}
+
+.case-designdotlocal-div{
+    margin-top:32px;
+}
+
+.puddleshaker{
+    margin-top:32px;
+    background-image: url("../images/puddleshaker.svg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 0;
+    padding-top: 8.379204893%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.tagline{
+    margin-top:16px;
+}
+
+.basic-info{
+    margin-top:16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.basic-info>div{
+    margin-top:8px;
+}
+
+.title-div{
+    margin-top:8px;
+}
+
+.description-div{
+    margin-top:8px;
+}
+
+.case-study-body{
+    margin-top:16px;
+}
+
+.introduction>div>{
+    margin-top:8px;
+}
+
+.problem-statement{
+    margin-top:16px;
+}
+
+.figure-1{
+    margin-top:16px;
+}
+.figure-1>.figure{
+    height:384px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/Site_Map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.inspiration{
+    margin-top:16px;
+}
+
+.problem-definition{
+    margin-top:16px;
+}
+
+.figure-2{
+    margin-top:16px;
+}
+.figure-2>.figure{
+    height:400px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/navbar_puddleshaker.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.design-goals{
+    margin-top:16px;
+}
+
+.product-features{
+    margin-top:16px;
+}
+
+.figure-3{
+    margin-top:16px;
+}
+.figure-3>.figure{
+    height:400px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/LANDING-PUDDLESH.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.user-research{
+    margin-top:16px;
+}
+
+.figure-4{
+    margin-top:16px;
+}
+.figure-4>.figure{
+    height:600px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/puddleshakerfigu3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.figure-5{
+    margin-top:16px;
+}
+.figure-5>.figure{
+    height:600px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/persona.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.figure-6{
+    margin-top:16px;
+}
+.figure-6>.figure{
+    height:200px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/User\ Flow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.low-fidelity-prototyping{
+    margin-top:16px;
+}
+
+.figure-7{
+    margin-top:16px;
+}
+.figure-7>.figure{
+    height:400px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/lowfi.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.design-systems{
+    margin-top:16px;
+}
+
+.figure-8{
+    margin-top:16px;
+}
+.figure-8>.figure{
+    height:500px;
+    width: 100%;
+    border-radius: 2px;
+    background-image: url("../images/Group\ 12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: center;
+}
+
+.hi-fi{
+    margin-top:16px;
+}
+
+.challenges-learnings{
+    margin-top:16px;
+}
